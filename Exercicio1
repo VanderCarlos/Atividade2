@@ -1,0 +1,10 @@
+ndias = int(input( ' Digite o numero de dias vividos'))
+a = int(ndias / 365)
+print ( '%d ano(s)  ' %a)
+m = int((ndias / 30)) - (a * 12)
+print ('%d mes(ses)' %m)
+if ndias == 365:
+    d = 0
+else:
+    d = ndias - ((ndias / 30) * 30)
+    print ('%d dia(s)' %d )
