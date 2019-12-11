@@ -1,0 +1,8 @@
+def Inverter(frase):
+    invert = frase.split()
+    for i in range(len(invert)):
+        invert[i] = invert[i][::-1]
+        return ' '.join(invert)
+
+frase = ' Programa'
+print (Inverter(frase))
