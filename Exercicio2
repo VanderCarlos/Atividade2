@@ -1,0 +1,12 @@
+a = int(input(" Digite um valor para A: "))
+b = int(input(" Digite um valor para B: "))
+c = int(input(" Digite um valor para C: "))
+import math
+
+if a > ( b + c):
+        print ( " O lado A é maior que a soma dos outros dois, portanto não forma um triangulo")
+else:
+        espaco = ( a + b + c) / 2
+        area = espaco * ( espaco - a) * ( espaco - b ) * ( espaco - c)
+        area2 = math.sqrt(area)
+        print (' O triangulo possui uma area de: ' , area2)
