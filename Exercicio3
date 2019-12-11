@@ -1,0 +1,13 @@
+n1 = int(input(' Digite 1 número: '))
+n2 = int(input(' Digite outro número: '))
+n3 = int(input(' Digite mais outro número: '))
+
+m = n1
+
+if m > n2:
+	m = n2
+
+if m > n3:
+	m = n3
+
+print ('O menor numero é o :  %d ' %m)
